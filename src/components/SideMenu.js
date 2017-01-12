@@ -9,12 +9,16 @@ const SideMenu = ({ menuCollapse, onCollapseChange }) => {
       <div className="layout-logo"></div>
       <Menu mode="inline" theme="dark" defaultSelectedKeys={['user']}>
         <Menu.Item key="user">
-          <Icon type="user" />
-          {!menuCollapse && <span className="nav-text">导航一</span>}
+          <Link to="/">
+            <Icon type="user" />
+            {!menuCollapse && <span className="nav-text">Dashboard</span>}
+          </Link>
         </Menu.Item>
         <Menu.Item key="setting">
-          <Icon type="setting" />
-          {!menuCollapse && <span className="nav-text">导航二</span>}
+          <Link to="/users">
+            <Icon type="setting" />
+            {!menuCollapse && <span className="nav-text">Users</span>}
+          </Link>
         </Menu.Item>
         <Menu.Item key="laptop">
           <Icon type="laptop" />
