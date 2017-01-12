@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../containers/Header'
+import SideMenu from '../containers/SideMenu'
 
 const App = () => (
-  <div style={{ height: '100%'}}>
-    <Header />
+  <div style={{ height: '100%' }}>
+    <SideMenu />
   </div>
 )
 

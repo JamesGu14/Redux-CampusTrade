@@ -20,7 +20,6 @@
   "homepage": "https://github.com/JamesGu14/Redux-CampusTrade",
   "dependencies": {
     "antd": "^2.6.1",
-    "babel-plugin-import": "^1.1.0",
     "express": "^4.14.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -34,10 +33,14 @@
     "babel": "^6.5.2",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
+    "babel-plugin-import": "^1.1.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
     "browserify": "^13.3.0",
-    "css-loader": "^0.26.1"
+    "css-loader": "^0.26.1",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1"
   }
 }
