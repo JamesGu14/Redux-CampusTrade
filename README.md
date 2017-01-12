@@ -2,6 +2,7 @@
 Redux-CampusTrade
 
 ## TODO:
-1. import css instead of link in html -- Done
-2. React router
-3. Fetch from remote
+1. [DONE] import css instead of link in html
+2. [DONE] Restructure the page by separating into SideMenu, Header, MainBody and Footer
+3. React router
+4. Fetch from remote
