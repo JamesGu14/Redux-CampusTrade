@@ -7,8 +7,9 @@ import combinedReducers from './reducers'
 import App from './components/App'
 
 // Import Body Page
-import Home from './components/pages/Home'
-import Users from './components/pages/Users'
+import Home from './components/pages/Home/'
+import Users from './components/pages/Users/'
+import NotFound from './components/pages/NotFound/'
 
 import 'antd/dist/antd.less'
 
@@ -21,6 +22,7 @@ ReactDOM.render(
         <IndexRoute component={Home} />
 
         <Route path="/users" component={Users} />
+        <Route path="*" component={NotFound}/>
       </Route>
     </Router>
   </Provider>,
